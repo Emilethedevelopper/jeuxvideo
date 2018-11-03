@@ -1,0 +1,183 @@
+*{
+  overflow:hidden;
+}
+
+
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
+}
+/*Global */
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+/*Header*/
+header{
+  background:#35424a;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#e8491d 3px solid
+}
+header h1{
+  padding-top: 10px;
+}
+ul{
+  margin:0;
+  padding:0;
+}
+
+
+header a {
+color:#ffffff;
+text-decoration:none;
+text-transform:uppercase;
+font-size:16px;
+
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float:inherit;
+  text-align:center;
+}
+
+header #branding h1{
+  margin-top:10px;
+}
+nav{
+  float:right;
+  margin-top:38px;
+}
+a:hover{
+  font-weight: bolder;
+  font-style: italic;
+}
+header .highlight, header #current a {
+  color:#e8491d;
+  font-weight:bold;
+}
+header img{
+  float:left;
+  margin-bottom: 15px;
+  margin-top:0;
+  padding-bottom: 15px;
+  height:100px;
+}
+
+
+#showcase{
+  min-height:400px;
+  background:url("showcase.jpg")  0 -400px;
+  text-align:center;
+  background-repeat: no-repeat;
+ border-bottom: #35424a 6px solid;
+}
+
+#showcase h1{
+  margin-top:100px;
+  font-size:55px;
+  margin-bottom:10px;
+  color:orange;
+}
+
+#showcase p{
+  font-size:20px;
+  color:orange;
+
+}
+
+
+
+.lol {
+  text-decoration:none;
+  text-transform: uppercase;
+  text-decoration-color: #ffffff;
+
+}
+ #style{
+  background:#e8491d;
+  border-radius: 5px;
+  border-width: 10px;
+  border-color: #e8491d;
+
+}
+
+footer {  padding:20px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color:#e8491d;
+  text-align: center;
+  margin:0;
+  padding-bottom:100px;
+
+}
+
+#style:hover{
+  background-color: #fb8b40 ;
+  font-weight: bolder;
+}
+
+
+
+#img1{
+  height:100px;
+  display: block;
+    margin-left: 125px;
+    margin-right: auto;
+    align:middle;
+    float: none;
+
+}
+input{
+  background-color: rgba(0, 0, 0, 0.25);
+
+}
+
+
+
+
+#connection{
+  background:orange;
+  border-color: black;
+}
+
+#modal span {
+  float:right;
+margin-right: 15px;
+  font-size: 30px;
+  cursor:pointer
+}
+#modal{
+  display:none;
+
+  position: fixed;
+top:0;
+z-index:1;
+left:0;
+
+  height: 100%;
+  width:100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.5);
+
+}
+ form #modal{
+  background-color: #e8491d;
+  margin: 0 auto;
+  width:370px;
+  border: black 5px solid;
+
+}
+#connection{
+  margin-top: 15px;
+}
